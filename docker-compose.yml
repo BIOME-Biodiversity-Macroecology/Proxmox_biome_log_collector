@@ -428,7 +428,7 @@ services:
   oauth2-proxy:
     # -alpine flavour: the default tag is distroless (no wget), which would
     # make the healthcheck below fail forever.
-    image: quay.io/oauth2-proxy/oauth2-proxy:v7.15.4-alpine
+    image: quay.io/oauth2-proxy/oauth2-proxy:v7.15.5-alpine
     profiles:
       - keycloak
     <<: *default-hardening
