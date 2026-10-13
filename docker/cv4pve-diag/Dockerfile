@@ -14,7 +14,7 @@
 ## cv4pve-diag`) — not a long-running service, so there is deliberately no
 ## HEALTHCHECK or EXPOSE here.
 
-FROM debian:trixie-20260918-slim AS builder
+FROM debian:trixie-20261005-slim AS builder
 
 ARG CV4PVE_VERSION=2.7.0
 ARG CV4PVE_DEB_SHA256=19fcb83f96dcbed88abeeb7a8b24a06efad8566c9a8f8e3ccbbfa68301b46b40
