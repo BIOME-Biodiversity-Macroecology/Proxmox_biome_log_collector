@@ -7,7 +7,7 @@
 
 services:
   pegaprox:
-    image: ghcr.io/pegaprox/pegaprox:1.2.0
+    image: ghcr.io/pegaprox/pegaprox:1.4.1
     security_opt:
       - no-new-privileges:true
     cap_drop:
